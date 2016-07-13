@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CompositeUsedAnimator/CompositeUsedAnimator.iml" filepath="$PROJECT_DIR$/CompositeUsedAnimator/CompositeUsedAnimator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JasonXu-Animator.iml" filepath="$PROJECT_DIR$/JasonXu-Animator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectAnimator/ObjectAnimator.iml" filepath="$PROJECT_DIR$/ObjectAnimator/ObjectAnimator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ValueAnimator/ValueAnimator.iml" filepath="$PROJECT_DIR$/ValueAnimator/ValueAnimator.iml" />
+    </modules>
+  </component>
+</project>

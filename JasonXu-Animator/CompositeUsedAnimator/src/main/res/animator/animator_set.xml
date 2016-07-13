@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+
+    <!--说明: set标签下的ordering 默认值是together,代表动画集合中的子动画一起同时播放,sequentially代表动画集合中的子动画按照前后顺序依次播放-->
+
+    <!--
+    animator 对应 ValueAnimator
+    set 对应 AnimatorSet
+    objectAnimator 对应 ObjectAnimator
+    -->
+    <animator android:duration="300"
+        android:valueFrom="0"
+        android:valueTo="400"
+        android:valueType="intType"
+        android:startOffset="200"
+        android:repeatCount="infinite"
+        android:interpolator="@android:interpolator/bounce"
+        android:repeatMode="reverse"/>
+
+    <objectAnimator android:propertyName="translationX"
+        android:duration="3000"
+        android:valueFrom="100"
+        android:valueTo="700"
+        android:repeatCount="2"/>
+</set>
